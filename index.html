@@ -7,8 +7,14 @@
 </head>
 <body>
 <a-scene>
+    <a-assets>
+        <img id="homeThumbnail" src="home.jpg">
+        <img id="sky" src="sky.jpg"> <!╌Placeholder image ╌>
+    </a-assets>
 
+    <a-sky src="#sky"></a-sky>
 
+    <a-entity position="0 1.8 -4" link="href: index.html; title: My Homepage; image: #homeThumbnail; visualAspectEnabled: true"></a-entity>
 </a-scene>
 </body>
 </html>
